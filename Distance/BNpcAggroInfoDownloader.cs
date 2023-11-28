@@ -17,8 +17,7 @@ namespace Distance
 
 			BNpcAggroInfoFile downloadedDataFile = new();
 
-			//string url = "https://punishedpineapple.github.io/DalamudPlugins/Distance/Support/AggroDistances.dat";
-			string url = "https://raw.githubusercontent.com/PunishedPineapple/PunishedPineapple.github.io/master/DalamudPlugins/Distance/Support/AggroDistances.dat";
+			string url = "https://raw.githubusercontent.com/root-l/Distance/main/Distance/Resources/AggroDistances.dat";
 			await Task.Run( async () =>
 			{
 				DownloadStatus status = DownloadStatus.Downloading;
